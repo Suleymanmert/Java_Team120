@@ -35,17 +35,6 @@ public class C01_NamingConvention {
         int sinifinEnYuksekNotu = 99;
         int maxSayi=123;
 
-
-
-
-
-
-
     }
-
-
-
-
-
 
 }

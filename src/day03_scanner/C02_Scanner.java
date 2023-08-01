@@ -31,10 +31,6 @@ public class C02_Scanner {
         System.out.println("girilen sayinin karesi : " + girilenSayi*girilenSayi);
 
 
-
-
-
-
     }
 
 
