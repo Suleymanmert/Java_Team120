@@ -1,4 +1,4 @@
-package day09_NestedIfElseStatements_Ternary;
+package day08_NestedIfElseStatements_Ternary;
 
 import java.util.Scanner;
 

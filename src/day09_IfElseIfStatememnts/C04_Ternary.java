@@ -1,4 +1,4 @@
-package day08_IfElseIfStatememnts;
+package day09_IfElseIfStatememnts;
 
 public class C04_Ternary {
 
