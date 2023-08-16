@@ -9,7 +9,9 @@ public class D_Child extends C_MecburiOlmayanParent {
         istedigi method'lari parent'dan kullanir,
         istemediklerini override eder,
         istedigi yeni method'lari da kendisine ekler
+
         Abstraction bu gidisata dur der
+
         yine parent secme hakki child'da
         AMMA parent class diyor ki,
         beni parent edinmek istersen,
