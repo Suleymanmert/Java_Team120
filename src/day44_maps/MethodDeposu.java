@@ -1,11 +1,9 @@
 package day44_maps;
-
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
-public class
-MethodDeposu {
+public class MethodDeposu {
     public static Map<Integer,String> ogrenciMapOlustur(){
         Map<Integer,String> ogrenciMap = new TreeMap<>();
         ogrenciMap.put(101,"Ali-Can-11-H-MF");
@@ -82,22 +80,29 @@ MethodDeposu {
             System.out.println(valueArr[0] + " " + valueArr[1]);
         }
     }
-
-    public static Map<Integer, String> ogrenciBolumDegistir(Map<Integer, String> ogrenciMap, String tm, String ea) {
-    }
-
-    public static Map<Integer, String> yilSonuSinifArtir(Map<Integer, String> ogrenciMap) {
-    }
 }
-
         /*
         Elimizde map var
         {
         101=Ali-Can-11-H-MF,
-        102=Veli-Cem-Cvalue'yu alip split ile array'e cevirelim
+        102=Veli-Cem-10-K-TM,
+        103=Ali-Cem-11-K-TM,
+        104=Ayse-Can-10-H-MF,
+        105=Sevgi-Cem-11-M-TM,
+        106=Sevgi-Can-10-K-MF
+        }
+        1- bizden istenen bilgiler key'de mi yoksa value'da mi ?
+        [
+        Ali-Can-11-H-MF,
+        Veli-Cem-10-K-TM,
+        Ali-Cem-11-K-TM,
+        Ayse-Can-10-H-MF,
+        Sevgi-Cem-11-M-TM,
+        Sevgi-Can-10-K-MF
+        ]
+        2- value icerisindeki bilgilere rahat ulasabilmek icin
+           for each loop ile her bir value'yu alip split ile array'e cevirelim
            [Ali, Can, 11, H, MF]
-        3- Eger sinif ve sube parametre olarak verilen ile ayni ise
-           isim ve soyismi yazdir
+         3- Eger sinif ve sube parametre olarak verilen ile ayni ise
+            isim ve soyismi yazdir
          */
-
-
